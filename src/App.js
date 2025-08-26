@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { MapPin, Phone, Clock, Star, AlertTriangle, CheckCircle, User, Shield, Home, Plus, List, Settings } from 'lucide-react';
+import React, { useState } from 'react';
+import { MapPin, Phone, Star, AlertTriangle, User, Shield, Home, Plus, List, Settings } from 'lucide-react';
 
 const NoiseComplaintApp = () => {
   const [userType, setUserType] = useState('vecino'); // 'vecino' o 'policia'
